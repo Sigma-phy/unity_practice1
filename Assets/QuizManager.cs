@@ -40,12 +40,12 @@ public class QuizManager : MonoBehaviour
 
         if (userAnswer.Equals(correct, System.StringComparison.OrdinalIgnoreCase))
         {
-            resultText.text = "⭕ 正解！";
+            resultText.text = "正解！";
             resultText.color = Color.green;
         }
         else
         {
-            resultText.text = "❌ 不正解！ 正しい答えは「" + correct + "」です。";
+            resultText.text = "不正解！ 正しい答えは「" + correct + "」です。";
             resultText.color = Color.red;
         }
 
